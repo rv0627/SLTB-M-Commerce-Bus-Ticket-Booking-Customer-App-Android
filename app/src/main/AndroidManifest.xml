@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="lk.jiat.sltb">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SLTB"
+        tools:targetApi="31">
+        <activity
+            android:name=".TimeSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyCode"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PHMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Changepassword"
+            android:exported="false" />
+        <activity
+            android:name=".Editprofile"
+            android:exported="false" />
+        <activity
+            android:name=".userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".notificationpanel"
+            android:exported="false" />
+        <activity
+            android:name=".feedbacksection"
+            android:exported="false" />
+        <activity
+            android:name=".cancelticket"
+            android:exported="false" />
+        <activity
+            android:name=".rescheduleticket"
+            android:exported="false" />
+        <activity
+            android:name=".ticketsummery"
+            android:exported="false" />
+        <activity
+            android:name=".tickethistorycard"
+            android:exported="false" />
+        <activity
+            android:name=".todayticketcard"
+            android:exported="false" />
+        <activity
+            android:name=".appointment_details"
+            android:exported="false" />
+        <activity
+            android:name=".ticketview"
+            android:exported="false" />
+        <activity
+            android:name=".bookappointment5"
+            android:exported="false" />
+        <activity
+            android:name=".bookticket4"
+            android:exported="false" />
+        <activity
+            android:name=".bookticket3"
+            android:exported="false" />
+        <activity
+            android:name=".oparatorcard"
+            android:exported="false" />
+        <activity
+            android:name=".Bookticket2"
+            android:exported="false" />
+        <activity
+            android:name=".routedetailscard"
+            android:exported="false" />
+        <activity
+            android:name=".Ratingcard"
+            android:exported="false" />
+        <activity
+            android:name=".bookticket"
+            android:exported="false" />
+        <activity
+            android:name=".opratorprofile"
+            android:exported="false" />
+        <activity
+            android:name=".dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Signupmember"
+            android:exported="false" />
+        <activity
+            android:name=".EmailVerify"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".NotificationListener"
+            android:exported="true"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="lk.jiat.sltb.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

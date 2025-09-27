@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SLTB Booking</string>
+
+
+    <string-array name="items_array">
+        <item>Galle</item>
+        <item>Ahangama</item>
+        <item>Matara</item>
+        <item>Colombo</item>
+    </string-array>
+    <string name="title_activity_booksession">Book Ticket</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Trips</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name="hospital_array">
+        <item>Express</item>
+        <item>Intercity</item>
+        <item>Night Rider</item>
+        <item>City Line</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

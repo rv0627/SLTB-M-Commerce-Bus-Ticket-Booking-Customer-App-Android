@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979264118628",
+    "project_id": "sltb-bus-booking",
+    "storage_bucket": "sltb-bus-booking.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979264118628:android:7420148eb027bcf0ae6471",
+        "android_client_info": {
+          "package_name": "lk.javainstitute.sltbbooking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBUMoNaxI0lw07xGjEn2ZruwrqWY9BcG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979264118628:android:81abb64ab8a14fd1ae6471",
+        "android_client_info": {
+          "package_name": "lk.jiat.sltb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBUMoNaxI0lw07xGjEn2ZruwrqWY9BcG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Uber Eats-inspired light palette -->
+    <color name="ue_green">#06C167</color>
+    <color name="ue_green_dark">#05A85A</color>
+    <color name="ue_green_light">#E8F5E8</color>
+    <color name="ue_white">#FFFFFF</color>
+    <color name="ue_light_grey">#F8F9FA</color>
+    <color name="ue_card_light">#FFFFFF</color>
+    <color name="ue_surface_light">#F8F9FA</color>
+    <color name="ue_divider_light">#E5E5E5</color>
+    <color name="ue_text_primary">#1A1A1A</color>
+    <color name="ue_text_secondary">#6B7280</color>
+    <color name="ue_text_tertiary">#9CA3AF</color>
+    <color name="ue_black">#000000</color>
+    <color name="ue_black_70">#B3000000</color>
+    <color name="ue_black_50">#80000000</color>
+    <color name="ue_black_20">#33000000</color>
+    <color name="ue_black_10">#1A000000</color>
+    <color name="ue_green_10">#1A06C167</color>
+    <color name="ue_green_20">#3306C167</color>
+    <color name="ue_green_5">#0D06C167</color>
+    <color name="ue_divider">#E5E5E5</color>
+    <color name="ue_white_50">#80FFFFFF</color>
+    <color name="ue_white_10">#1AFFFFFF</color>
+    <color name="ue_white_70">#B3FFFFFF</color>
+    <color name="ue_white_80">#CCFFFFFF</color>
+    <color name="ue_surface">#F8F9FA</color>
+    <color name="ue_card">#FFFFFF</color>
+
+    <!-- Map to semantic names used in styles.xml -->
+    <color name="background_dark">@color/ue_light_grey</color>
+    <color name="black">@color/ue_black</color>
+    <color name="surface_dark">@color/ue_surface_light</color>
+    <color name="card_dark">@color/ue_card_light</color>
+    <color name="primary_dark">@color/ue_green</color>
+    <color name="secondary_dark">@color/ue_green_dark</color>
+    <color name="text_primary_dark">@color/ue_text_primary</color>
+    <color name="text_secondary_dark">@color/ue_text_secondary</color>
+    <color name="chip_background">@color/ue_divider_light</color>
+    <color name="chip_selected">@color/ue_green</color>
+    <color name="bottom_nav_bg">@color/ue_surface_light</color>
+
+    <!-- Keep existing colors if any -->
+    <color name="grey">#F5F5F5</color>
+</resources>
